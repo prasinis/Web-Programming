@@ -1,0 +1,45 @@
+@font-face {
+    font-family: NotoSerif;
+    src: url("Noto_Serif/NotoSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Regular.ttf");
+}
+
+body{
+    background-color:rgb(69, 208, 243);
+    font-family: NotoSerif;
+}
+
+h1, h2{
+    background-color: rgb(24, 24, 59);
+    color: rgb(255, 230, 0);
+    text-align: center;
+    font-weight: normal;
+}
+
+hr{
+    color: white;
+}
+
+ul{
+    background-color: orange;
+    list-style-type: none;
+    margin-left: 0px;
+    font-size: 25px;
+    font-family: OpenSans;
+}
+
+.myBlue{
+    color: aquamarine;
+}
+
+.myYellow{
+    color: yellow;
+}
+
+ul > li:hover{
+    background-color: rgb(24, 24, 59);
+}
