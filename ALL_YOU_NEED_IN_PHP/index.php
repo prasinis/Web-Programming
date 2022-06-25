@@ -6,7 +6,7 @@
         <title>Index</title>
     </head>
     <body>
-    <h1>Πρόδρομος - Ανάργυρος Νάσης  /  iis21149@uom.edu.gr</h1>
+    <h1></h1>
     <a href="show.php">Εμφάνιση</a>
     <a href="set.php">Καταχώριση</a>
     <a href="pick.php">Διαλογή</a>
