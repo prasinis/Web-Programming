@@ -14,7 +14,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "iis21149";
+        $dbname = "";
         $idErr = $nameErr = $websiteErr = "";
         $id = $name = $website = "";
 
@@ -66,7 +66,7 @@
         }
     ?>
 
-    <h1>Πρόδρομος - Ανάργυρος Νάσης  /  iis21149@uom.edu.gr</h1>
+    <h1></h1>
     <p><span class="error">* required field.</span></p>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
     Id: <input type="text" name="id">
