@@ -16,7 +16,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "iis21149";
+        $dbname = "";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password);
@@ -55,7 +55,6 @@
         }
         $conn->close();
     ?>
-
-
+        
     </body>
 </html>
