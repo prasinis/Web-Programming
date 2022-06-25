@@ -6,13 +6,13 @@
         <title>Show</title>
     </head>
     <body>
-        <h1>Πρόδρομος - Ανάργυρος Νάσης  /  iis21149@uom.edu.gr</h1>
+        <h1></h1>
         <?php
             // About connection
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dbname = "iis21149";
+            $dbname = "";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
