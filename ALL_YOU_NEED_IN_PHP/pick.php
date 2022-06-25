@@ -11,13 +11,13 @@
         </style>
     </head>
     <body>
-        <h1>Πρόδρομος - Ανάργυρος Νάσης  /  iis21149@uom.edu.gr</h1>
+        <h1></h1>
         <?php
             // About connection
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dbname = "iis21149";
+            $dbname = "";
 
             // Create connection
             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -34,7 +34,7 @@
                 // output data of each row
                 $i = 0;
                 while($row = $result->fetch_assoc()) {
-                    if(str_contains($row["id"], '21149')) {
+                    if(str_contains($row["id"], '')) {
                         echo "<tr><td>" . $row["id"]. "</td><td>" . $row["name"]. "</td><td>" . $row["website"]. "</td></tr>";
                     }
                     $i++;
