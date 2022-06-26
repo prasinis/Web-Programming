@@ -26,7 +26,7 @@
         } 
 
         // Create database
-        $sql = "CREATE DATABASE IF NOT EXISTS iis21149";
+        $sql = "CREATE DATABASE IF NOT EXISTS name";
         if ($conn->query($sql) === TRUE) {
             echo "Database created successfully / was already created <br>";
         } else {
@@ -42,7 +42,7 @@
         } 
 
         // sql to create table
-        $sql = "CREATE TABLE iis21149 (
+        $sql = "CREATE TABLE name (
         id INT(5) NOT NULL, 
         name VARCHAR(30) NOT NULL,
         website VARCHAR(30) NOT NULL
